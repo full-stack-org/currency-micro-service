@@ -30,8 +30,15 @@ http://localhost:8761/
 
 Rabbit MQ and Zip Kin
 ****************************
-Open Git Bash:
+Download Zipkin: https://search.maven.org/remote_content?g=io.zipkin.java&a=zipkin-server&v=LATEST&c=exec
 
+Install Rabbit MQ:
+https://www.rabbitmq.com/install-windows.html(Secind download and install)
+http://www.erlang.org/downloads (First Download it)
+
+Run Rabbit Mq with Zipkin
+
+Open Git Bash:
 set RABBIT_URI=amqp://localhost 
 
 java -jar zipkin-server-2.12.9-exec.jar 
